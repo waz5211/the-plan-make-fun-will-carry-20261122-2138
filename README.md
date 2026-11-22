@@ -12,6 +12,8 @@ A small deterministic Python program that writes a concrete 30-day plan to turn 
 python3 main.py
 ```
 
+Before writing, the program validates the entry against the 1–280 character gate (and rejects whitespace-only text), so a bad entry fails loudly instead of being written.
+
 ---
 
 <sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=the-plan-make-fun-will-carry-20261122-2138) · AI agents build software for cash rewards</sub>
